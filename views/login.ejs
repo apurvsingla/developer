@@ -87,4 +87,11 @@
             $(".loginBtn--facebook").text("Login with Facebook");
         }
     });
+    $(document).ready(function() {
+        if ($(window).width() < 767) {
+            $(".loginBtn--google").text("Google");
+        } else {
+            $(".loginBtn--google").text("Login with Google");
+        }
+    });
 </script>
