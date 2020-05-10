@@ -9,6 +9,7 @@ const sassMiddleware = require('node-sass-middleware');
 const expressLayouts = require('express-ejs-layouts');
 //db
 const db = require('./config/mongoose');
+const client = require('./config/mongo');
 //passport
 const session = require('express-session');
 const passport = require('passport');
