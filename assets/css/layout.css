@@ -1,0 +1,8 @@
+* {
+    word-spacing: 0.1rem;
+    letter-spacing: 0.05rem;
+}
+
+main {
+    min-height: 39.1rem;
+}

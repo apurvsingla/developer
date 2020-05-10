@@ -1,0 +1,13 @@
+.carousel-item img {
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+}
+
+#myCarousel {
+    margin-top: -100px;
+}
+
+.extra-row-space {
+    margin-top: 18px;
+}
