@@ -78,4 +78,13 @@
         js.src = "https://connect.facebook.net/en_US/sdk.js";
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
+
+
+    $(document).ready(function() {
+        if ($(window).width() < 767) {
+            $(".loginBtn--facebook").text("Facebook");
+        } else {
+            $(".loginBtn--facebook").text("Login with Facebook");
+        }
+    });
 </script>
