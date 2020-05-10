@@ -153,7 +153,8 @@ a button {
         margin-left: 1%;
     }
     .loginBtn {
-        width: 10.5rem;
+        width: 9rem;
+        font-size: 1rem;
     }
     .pb {
         margin-bottom: 2%;
