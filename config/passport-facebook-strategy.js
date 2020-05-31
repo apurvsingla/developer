@@ -9,7 +9,7 @@ const User = require('../models/user');
 passport.use(new FacebookStrategy({
         clientID: "590971581520059",
         clientSecret: "8aba3aa8dddf65900380ba1f29eb12ef",
-        callbackURL: "http://localhost:8000/users/auth/facebook/callback",
+        callbackURL: "http://developer-1265.herokuapp.com/users/auth/facebook/callback",
         profileFields: ['id', 'displayName', 'email'],
         enableProof: true
     },
